@@ -2,6 +2,10 @@
 
 In here, you'll find the example projects for the _Realtime or it Didn't Happen_ workshop, held at [Resonate 2015][res15] by Arturo Castro ([@arturoc][arturoc], James Acres ([@jacres][jacres]), and Tim Gfrerer ([@tgfrerer][tgfrerer]).
 
+# Installation
+
+Clone this repository into your `openFrameworks/apps` directory.
+
 ## Structure
 
 Each example exists in two versions: 
@@ -15,7 +19,7 @@ Some examples have Readme.md files with additional information.
 
 ## Project files
 
-Each example directory also contains project files for Visual Studio 2012 and XCode. If you are running these examples in other development environments, you may want to use the openFrameworks project generator to create the project files for your system.
+Each example directory also contains project files for Visual Studio 2012, XCode, and linux64 / codeblocks. If you are running these examples in other development environments, you may want to use the openFrameworks project generator to create the project files for your system, or use the makefile build system.
 
 ## License
 
