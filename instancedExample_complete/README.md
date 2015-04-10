@@ -41,3 +41,7 @@ In both cases, the scopes which have been "switched off" have no effect on execu
 This project contains a 512x512 pixels heightmap "data/elevation.png". This heightmap comes from [NASA data][nasa], and is from an actual place on earth, somewhere on the C1 tile: 
 
 [nasa]: http://visibleearth.nasa.gov/view.php?id=73934
+
+## Screenshot
+
+![img](screenshot.png)

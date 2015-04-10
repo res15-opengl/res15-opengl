@@ -12,4 +12,4 @@ Press `c` to toggle between the two cameras. Use the mouse to adjust the camera 
 
 ## Screenshot
 
-![img](bin/data/screenshot.png)
+![img](screenshot.png)

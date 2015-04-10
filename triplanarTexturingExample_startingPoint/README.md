@@ -37,3 +37,6 @@ You can place three seamless textures into `data/assets/`, and name them:
 
 You might find some textures [here](http://www.proceduraltextures.com/2013/11/21/creating-a-procedural-land-texture-with-images/).
 
+## Screenshot
+
+![img](screenshot.png)

@@ -1,4 +1,3 @@
-
 # LUT grading
 
 This project demonstates how to use 3D color lookup cubes to add hardware accelerated color grading to OpenGL projects.
@@ -22,3 +21,7 @@ If you use this lookup table png in the test project, your images should be prop
 * [wiki](https://en.wikipedia.org/wiki/3D_lookup_table)
 * [image magick](http://www.imagemagick.org/Usage/color_mods/#hald-clut)
 * [hald-clut](http://www.quelsolaar.com/technology/clut.html)
+
+## Screenshot
+
+![img](screenshot.png)
