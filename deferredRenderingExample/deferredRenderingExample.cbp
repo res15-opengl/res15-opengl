@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="deferredRenderingExample" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/src/ofxAssimpAnimation.cpp">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/src/ofxAssimpAnimation.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/src/ofxAssimpMeshHelper.cpp">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/src/ofxAssimpMeshHelper.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/src/ofxAssimpModelLoader.cpp">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/src/ofxAssimpModelLoader.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/src/ofxAssimpTexture.cpp">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/src/ofxAssimpTexture.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/src/ofxAssimpUtils.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiAnim.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiAssert.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiCamera.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiColor4D.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiConfig.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiDefines.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiFileIO.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiLight.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiMaterial.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiMatrix3x3.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiMatrix4x4.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiMesh.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiPostProcess.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiQuaternion.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiScene.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiTexture.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiTypes.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiVector2D.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiVector3D.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/aiVersion.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp.hpp">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/Compiler/poppack1.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include/Compiler" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/Compiler/pushpack1.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include/Compiler" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/DefaultLogger.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/IOStream.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/IOSystem.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/Logger.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/LogStream.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/NullLogger.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxAssimpModelLoader/libs/assimp/include/ProgressHandler.h">
+			<Option virtualFolder="addons/ofxAssimpModelLoader/libs/assimp/include" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
